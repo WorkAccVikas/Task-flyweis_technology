@@ -1,0 +1,168 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  /* width: 25px;
+  height: 25px; */
+  top: 301.6px;
+  left: 1302.49px;
+  border-radius: 8.64px;
+  padding: 1rem;
+}
+
+.icon:hover,
+.icon:focus {
+  background: #00000033;
+}
+
+.icon-size {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: gray;
+}
+
+th:first-child,
+td:first-child {
+  text-align: center;
+}
+
+th:nth-child(5),
+td:nth-child(5) {
+  text-align: center;
+}
+
+.txt-style {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.New {
+  border: 1.08px solid #007aff;
+  color: #007aff;
+  border-radius: 5px;
+}
+
+.Old {
+  border: 1.08px solid #ffa800;
+  color: #ffa800;
+  border-radius: 5px;
+}
+
+/*  */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  /* width: 300px; */
+  background-color: white;
+  padding: 20px;
+}
+
+.modal-buttons {
+  padding: 1.5rem 1rem;
+}
+
+.modal-button:focus,
+.not-now-btn {
+  outline: 2px solid blue;
+  color: #000;
+  font-weight: bold;
+  background-color: #0f2c64;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.modal-content > h2 {
+  margin-bottom: 0.5rem;
+  font-size: 18px;
+  padding: 0.5rem;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.modal-content {
+  border-radius: 5px;
+}
+
+.btn-padding {
+  padding: 0.8rem 2rem;
+}
+
+/* Scrollbar */
+
+#container__lawyer::-webkit-scrollbar {
+  width: 12px;
+  background-color: lightblue;
+}
+
+#container__lawyer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #0f2c64;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 0, 0, 0.4) 50%,
+    transparent,
+    transparent
+  );
+}
