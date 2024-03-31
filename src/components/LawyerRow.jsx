@@ -5,7 +5,7 @@ import { formatPhoneNumber } from "../utility/utlityFunction";
 import Badge from "./Badge";
 
 function LawyerRow({ item, openModal }) {
-  // console.log("LawyerRow Re-render");
+  console.log("LawyerRow Re-render");
 
   const memoizedFormatPhoneNumber = useMemo(() => formatPhoneNumber, []);
 
@@ -46,6 +46,10 @@ function LawyerRow({ item, openModal }) {
     </>
   );
 }
+
+// export default LawyerRow;
+
+// export default React.memo(LawyerRow);
 
 // Use React.memo with a custom areEqual function
 const areEqual = (prevProps, nextProps) => {

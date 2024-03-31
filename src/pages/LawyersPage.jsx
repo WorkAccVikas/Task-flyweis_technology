@@ -6,7 +6,7 @@ import Modal from "../components/ModalBox";
 import "./LawyersPage.css";
 
 const token =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTY5OTk3NDkzOCwiZXhwIjoxNzAwMjM0MTM4fQ.oN1aVlYy-OHaRDyVUbVxcH0QJ4CKtbS1X2QPxsXGU7M";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OGZlMTc4MjMyMzIwNmVmMjViOWJiOSIsImlhdCI6MTcwNTY5MTgxMywiZXhwIjoxNzA1OTUxMDEzfQ.cWaobAgMtZsXSk9WWJSMpVcoLCvKKwPCOSWJJthsszU";
 
 const LawyersPage = () => {
   const [data, setData] = useState([]);
